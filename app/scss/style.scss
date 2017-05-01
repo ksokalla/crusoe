@@ -4,20 +4,28 @@ body {
 	margin: 0;
 }
 
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #000;
+}
+
 
 
 /*---------general styles end---------*/
 
 /*---------header styles start---------*/
-
-#header-top-bar {
+#header {
 	background-color: #616161;
+}
+#header-top-bar {
 	color:  #fff;
-	position: absolute;
-	width: 100%;
 	text-align: center;
 	padding: 5px 0 0 0;
-	
 }
 
 #header-top-bar p, h2, h3, li {
@@ -40,4 +48,20 @@ span {
 	font-size: 1.1em;
 }
 
+button a {
+	color: #616161;
+}
+
+button {
+	border-radius: 7px;
+	text-transform: uppercase;
+	padding: 4px 7px;
+	font-weight: bold;
+	background-color: #fff;
+}
 /*---------general styles end---------*/
+/*---------navbar syles start---------*/
+
+
+
+/*---------navbar syles end---------*/
