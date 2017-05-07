@@ -83,3 +83,16 @@ ul > li > a > i.fa {
   padding-top: 10px; }
 
 /*---------navbar syles end---------*/
+/*---------slider styles start------*/
+.slidersokalla img {
+  width: 100%;
+  height: auto;
+  border: 2px solid #fff; }
+
+.slick-slide:focus {
+  outline: none; }
+
+.slick-slide {
+  width: 60vw; }
+
+/*---------slider styles end--------*/
